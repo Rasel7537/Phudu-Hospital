@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/JjdWNQ1p/pexels-shkrabaanthony-6749762.jpg",
+    "name": "Dr. John Doe",
+    "education": "MBBS, MD (Cardiology)",
+    "speciality": "Cardiologist",
+    "experience": "15 years",
+    "registration_number": "123456"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/4R4F0g7L/doctor-physician-studio-photograph-7wpk02gqixe2t3k2.webp",
+    "name": "Dr. Jane Smith",
+    "education": "MBBS, MS (Orthopedics)",
+    "speciality": "Orthopedic Surgeon",
+    "experience": "10 years",
+    "registration_number": "789012"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/wNpbpqJB/asian-doctor-physician-kx65lggp3v2ks7a2.webp",
+    "name": "Dr. Emily White",
+    "education": "MBBS, DCH (Pediatrics)",
+    "speciality": "Pediatrician",
+    "experience": "12 years",
+    "registration_number": "345678"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/8nGsR57c/beautiful-woman-physician-photograph-s2pa37nujkz8vzjg.webp",
+    "name": "Dr. Robert Green",
+    "education": "MBBS, MD (Dermatology)",
+    "speciality": "Dermatologist",
+    "experience": "8 years",
+    "registration_number": "901234"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/ZRKqD3sD/doctor-pictures-l5y1qs2998u7rf0x.webp",
+    "name": "Dr. Sarah Brown",
+    "education": "MBBS, MD (Neurology)",
+    "speciality": "Neurologist",
+    "experience": "18 years",
+    "registration_number": "567890"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/B2vr90Vq/pexels-joseph-oti-nyametease-2148147873-29941468.jpg",
+    "name": "Dr. Michael Black",
+    "education": "MBBS, MS (Ophthalmology)",
+    "speciality": "Ophthalmologist",
+    "experience": "9 years",
+    "registration_number": "112233"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/QFWz3kK2/pexels-laura-james-6098065.jpg",
+    "name": "Dr. Linda Grey",
+    "education": "MBBS, MS (ENT)",
+    "speciality": "ENT Specialist",
+    "experience": "14 years",
+    "registration_number": "445566"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/zTBjYvrh/pexels-pavel-danilyuk-6753419.jpg",
+    "name": "Dr. William Johnson",
+    "education": "MBBS, MD (Oncology)",
+    "speciality": "Oncologist",
+    "experience": "20 years",
+    "registration_number": "778899"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/0jNqPZQK/closeup-portrait-friendly-smiling-confident-260nw-524048575.webp",
+    "name": "Dr. Olivia Davis",
+    "education": "MBBS, MS (Gynecology)",
+    "speciality": "Gynecologist",
+    "experience": "13 years",
+    "registration_number": "223344"
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/RpPCcbJy/woman-2141808-640.jpg",
+    "name": "Dr. James Wilson",
+    "education": "MBBS, MD (Psychiatry)",
+    "speciality": "Psychiatrist",
+    "experience": "11 years",
+    "registration_number": "556677"
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/DgppXVs5/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg",
+    "name": "Dr. Sophia Martinez",
+    "education": "MBBS, MD (Radiology)",
+    "speciality": "Radiologist",
+    "experience": "16 years",
+    "registration_number": "889900"
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/xqLYGm50/premium-photo-1658506671316-0b293df7c72b.jpg",
+    "name": "Dr. Daniel Lee",
+    "education": "MBBS, MD (Gastroenterology)",
+    "speciality": "Gastroenterologist",
+    "experience": "17 years",
+    "registration_number": "101112"
+  }
+]
