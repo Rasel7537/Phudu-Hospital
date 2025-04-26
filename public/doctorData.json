@@ -5,6 +5,7 @@
     "name": "Dr. John Doe",
     "education": "MBBS, MD (Cardiology)",
     "speciality": "Cardiologist",
+    "Working":"Grand Horizon Advanced Medical & Research Institute",
     "Available":"Available",
     "experience": "15 years experience",
     "registration_number": "123456"
@@ -15,6 +16,7 @@
     "name": "Dr. Jane Smith",
     "education": "MBBS, MS (Orthopedics)",
     "speciality": "Orthopedic Surgeon",
+    "Working":"Everlasting Care International Specialty Hospital",
     "Available":"Available",
     "experience": "10 years experience",
     "registration_number": "789012"
@@ -25,6 +27,7 @@
     "name": "Dr. Emily White",
     "education": "MBBS, DCH (Pediatrics)",
     "speciality": "Pediatrician",
+    "Working":"Summit Heights Comprehensive Healthcare Center",
     "Available":"Available",
     "experience": "12 years experience",
     "registration_number": "345678"
@@ -35,6 +38,7 @@
     "name": "Dr. Robert Green",
     "education": "MBBS, MD (Dermatology)",
     "speciality": "Dermatologist",
+    "Working":"Starlight Regional Institute for Advanced Medicine",
     "Available":"Available",
     "experience": "8 years experience",
     "registration_number": "901234"
@@ -45,6 +49,7 @@
     "name": "Dr. Sarah Brown",
     "education": "MBBS, MD (Neurology)",
     "speciality": "Neurologist",
+    "Working":"Guardian Angel Multispecialty Medical Pavilion",
     "Available":"Available",
     "experience": "18 years experience",
     "registration_number": "567890"
@@ -55,6 +60,7 @@
     "name": "Dr. Michael Black",
     "education": "MBBS, MS (Ophthalmology)",
     "speciality": "Ophthalmologist",
+    "Working":"VitalHope Integrated Wellness & Rehabilitation Center",
     "Available":"Available",
     "experience": "9 years experience",
     "registration_number": "112233"
@@ -65,6 +71,7 @@
     "name": "Dr. Linda Grey",
     "education": "MBBS, MS (ENT)",
     "speciality": "ENT Specialist",
+    "Working":"Serenity Springs Advanced Surgical & Treatment Facility",
     "Available":"Available",
     "experience": "14 years experience",
     "registration_number": "445566"
@@ -76,6 +83,7 @@
     "education": "MBBS, MD (Oncology)",
     "speciality": "Oncologist",
     "Available":"Available",
+    "Working":"NovaMed Excellence Center for Specialized Care",
     "experience": "20 years experience",
     "registration_number": "778899"
   },
@@ -86,6 +94,7 @@
     "education": "MBBS, MS (Gynecology)",
     "speciality": "Gynecologist",
     "Available":"Available",
+    "Working":"Crescent Valley Institute for Cardiovascular & Neurological Health",
     "experience": "13 years experience",
     "registration_number": "223344"
   },
@@ -95,8 +104,10 @@
     "name": "Dr. James Wilson",
     "education": "MBBS, MD (Psychiatry)",
     "speciality": "Psychiatrist",
+    "Working":"Grand Horizon Advanced Medical & Research Institute",
     "Available":"Available",
     "experience": "11 years experience",
+    "Availability": "Sunday, Monday, Thursday",
     "registration_number": "556677"
   },
   {
@@ -105,6 +116,7 @@
     "name": "Dr. Sophia Martinez",
     "education": "MBBS, MD (Radiology)",
     "speciality": "Radiologist",
+    "Working":"ZenithCare International Medical & Research Academy",
     "Available":"Available",
     "experience": "16 years experience",
     "registration_number": "889900"
@@ -115,6 +127,7 @@
     "name": "Dr. Daniel Lee",
     "education": "MBBS, MD (Gastroenterology)",
     "speciality": "Gastroenterologist",
+    "Working":"Harmony Haven Advanced Multispecialty Health Center",
     "Available":"Available",
     "experience": "17 years experience",
     "registration_number": "101112"

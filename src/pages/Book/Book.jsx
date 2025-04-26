@@ -1,14 +1,9 @@
 import React from "react";
+import { Link, Links } from "react-router";
 
 const Book = ({ singleBook }) => {
-  const {
-    image,
-    name,
-    education,
-    experience,
-    registration_number,
-    Available,
-  } = singleBook;
+  const { image, name, education, experience, registration_number, Available,id } =
+    singleBook;
 
   return (
     <div>
@@ -35,10 +30,13 @@ const Book = ({ singleBook }) => {
                 Reg No: {registration_number}
               </p>
             </div>
-
-            <button className="btn btn-wide text-[#176AE5] font-semibold rounded-full border-blue-500 text-[20px] ml-8 mt-3">
-              View Details
-            </button>
+            <Link to="/about">
+            <Link to={`/doctorDetails/${id}`}>
+              <button className="btn btn-wide text-[#176AE5] font-semibold rounded-full border-blue-500 text-[20px] ml-8 mt-3">
+                View Details
+              </button>
+              </Link>
+            </Link>
           </div>
         </div>
       </div>
