@@ -1,11 +1,12 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co.com/JjdWNQ1p/pexels-shkrabaanthony-6749762.jpg",
+    "image": "https://i.ibb.co.com/RpPCcbJy/woman-2141808-640.jpg",
     "name": "Dr. John Doe",
     "education": "MBBS, MD (Cardiology)",
     "speciality": "Cardiologist",
-    "experience": "15 years",
+    "Available":"Available",
+    "experience": "15 years experience",
     "registration_number": "123456"
   },
   {
@@ -14,7 +15,8 @@
     "name": "Dr. Jane Smith",
     "education": "MBBS, MS (Orthopedics)",
     "speciality": "Orthopedic Surgeon",
-    "experience": "10 years",
+    "Available":"Available",
+    "experience": "10 years experience",
     "registration_number": "789012"
   },
   {
@@ -23,25 +25,28 @@
     "name": "Dr. Emily White",
     "education": "MBBS, DCH (Pediatrics)",
     "speciality": "Pediatrician",
-    "experience": "12 years",
+    "Available":"Available",
+    "experience": "12 years experience",
     "registration_number": "345678"
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co.com/8nGsR57c/beautiful-woman-physician-photograph-s2pa37nujkz8vzjg.webp",
+    "image": "https://i.ibb.co.com/xqLYGm50/premium-photo-1658506671316-0b293df7c72b.jpg",
     "name": "Dr. Robert Green",
     "education": "MBBS, MD (Dermatology)",
     "speciality": "Dermatologist",
-    "experience": "8 years",
+    "Available":"Available",
+    "experience": "8 years experience",
     "registration_number": "901234"
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co.com/ZRKqD3sD/doctor-pictures-l5y1qs2998u7rf0x.webp",
+    "image": "https://i.ibb.co.com/RpPCcbJy/woman-2141808-640.jpg",
     "name": "Dr. Sarah Brown",
     "education": "MBBS, MD (Neurology)",
     "speciality": "Neurologist",
-    "experience": "18 years",
+    "Available":"Available",
+    "experience": "18 years experience",
     "registration_number": "567890"
   },
   {
@@ -50,16 +55,18 @@
     "name": "Dr. Michael Black",
     "education": "MBBS, MS (Ophthalmology)",
     "speciality": "Ophthalmologist",
-    "experience": "9 years",
+    "Available":"Available",
+    "experience": "9 years experience",
     "registration_number": "112233"
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co.com/QFWz3kK2/pexels-laura-james-6098065.jpg",
+    "image": "https://i.ibb.co.com/DgppXVs5/an-indian-young-female-doctor-isolated-on-green-ai-generated-photo.jpg",
     "name": "Dr. Linda Grey",
     "education": "MBBS, MS (ENT)",
     "speciality": "ENT Specialist",
-    "experience": "14 years",
+    "Available":"Available",
+    "experience": "14 years experience",
     "registration_number": "445566"
   },
   {
@@ -68,7 +75,8 @@
     "name": "Dr. William Johnson",
     "education": "MBBS, MD (Oncology)",
     "speciality": "Oncologist",
-    "experience": "20 years",
+    "Available":"Available",
+    "experience": "20 years experience",
     "registration_number": "778899"
   },
   {
@@ -77,7 +85,8 @@
     "name": "Dr. Olivia Davis",
     "education": "MBBS, MS (Gynecology)",
     "speciality": "Gynecologist",
-    "experience": "13 years",
+    "Available":"Available",
+    "experience": "13 years experience",
     "registration_number": "223344"
   },
   {
@@ -86,7 +95,8 @@
     "name": "Dr. James Wilson",
     "education": "MBBS, MD (Psychiatry)",
     "speciality": "Psychiatrist",
-    "experience": "11 years",
+    "Available":"Available",
+    "experience": "11 years experience",
     "registration_number": "556677"
   },
   {
@@ -95,7 +105,8 @@
     "name": "Dr. Sophia Martinez",
     "education": "MBBS, MD (Radiology)",
     "speciality": "Radiologist",
-    "experience": "16 years",
+    "Available":"Available",
+    "experience": "16 years experience",
     "registration_number": "889900"
   },
   {
@@ -104,7 +115,8 @@
     "name": "Dr. Daniel Lee",
     "education": "MBBS, MD (Gastroenterology)",
     "speciality": "Gastroenterologist",
-    "experience": "17 years",
+    "Available":"Available",
+    "experience": "17 years experience",
     "registration_number": "101112"
   }
 ]

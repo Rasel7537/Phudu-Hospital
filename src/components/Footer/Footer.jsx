@@ -4,9 +4,10 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import logoImage from "../../assets/logo (1).png";
+
 const Footer = () => {
   return (
-    <footer className="footer footer-horizontal footer-center bg-white text-primary-content p-10 border">
+    <footer className="footer footer-horizontal footer-center bg-white text-primary-content p-10 border rounded-2xl shadow-2xl">
       <aside>
         <div className="flex justify-around items-center gap-2">
           <img className="w-7" src={logoImage} alt="" srcset="" />
