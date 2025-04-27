@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer footer-horizontal footer-center bg-white text-primary-content p-10 border rounded-2xl shadow-2xl">
       <aside>
         <div className="flex justify-around items-center gap-2">
-          <img className="w-7" src={logoImage} alt="" srcset="" />
+          <img className="w-7" src={logoImage} alt=""  />
           <a className=" text-xl text-black font-semibold">Phudu</a>
         </div>
       </aside>

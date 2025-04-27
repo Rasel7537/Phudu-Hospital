@@ -44,8 +44,8 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex justify-center items-center gap-3 mt-8 ">
-          <img className="w-[450px]" src={bannerImage} alt="" srcset="" />
-          <img  className="w-[450px]" src={bannerImage} alt="" srcset="" />
+          <img className="w-[450px]" src={bannerImage} alt="" />
+          <img  className="w-[450px]" src={bannerImage} alt=""  />
         </div>
       </div>
     </div>

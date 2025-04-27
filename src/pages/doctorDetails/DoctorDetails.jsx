@@ -1,18 +1,33 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router";
+import { Link, useLoaderData, useParams } from "react-router";
+import { BsExclamationOctagon } from "react-icons/bs";
+import { ToastContainer, toast } from 'react-toastify';
 
 const DoctorDetails = () => {
+  const  tostifi = ()=>{
+    toast("appointment scheduled for");
+  }
   const { id } = useParams();
   const doctorId = parseInt(id);
   const data = useLoaderData();
   const singleDoctor = data.find((doctor) => doctor.id === doctorId);
-  // console.log(singleDoctor);
-  // console.log(typeof id, data);
-  const { image, name, education, speciality,Working,registration_number,Availability } = singleDoctor;
+
+  const {
+    image,
+    name,
+    education,
+    Working,
+    registration_number,
+    Availability,
+    Fee,
+  } = singleDoctor;
+
+ 
+
   return (
     <div>
       <div>
-        <div className="w-[1280px] h-[256px] shadow-2xl rounded-2xl text-center my-7 pt-5">
+        <div className="w-[1175px] h-[256px] shadow-2xl rounded-2xl text-center my-7 pt-5">
           <h1 className="text-3xl font-bold pt-9">Doctor's Profile Details</h1>
           <p className="pt-4">
             Dr. Ayesha Rahman Specialization: Cardiology Qualifications: MBBS,
@@ -30,18 +45,51 @@ const DoctorDetails = () => {
           <img className="w-60 h-48" src={image} alt="doctor" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-[#0b0a0a] font-bold text-2xl">{name}</h2>
+          <h2 className="card-title text-[#0b0a0a] font-bold text-2xl">
+            {name}
+          </h2>
           <p className="text-[#948a8a] font-semibold">{education}</p>
-          <p className=" font-semibold">Working at <br />
+          <p className="font-semibold">
+            Working at <br />
             {Working}
           </p>
           <div className="divider"></div>
-          <p className="text-[#948a8a] font-semibold">Reg No: {registration_number}</p>
+          <p className="text-[#948a8a] font-semibold">
+            Reg No: {registration_number}
+          </p>
           <div className="divider"></div>
-          <div>Availability{Availability}</div>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Watch</button>
+          <div className="font-semibold">Availability : {Availability}</div>
+          <p className="font-semibold text-blue-500">Consultation Fee: {Fee}</p>
+        </div>
+      </div>
+
+      <div>
+        <div className="w-[1175px] h-[256px] shadow-2xl rounded-2xl text-center my-7 pt-5">
+          <h1 className="text-3xl font-bold pt-9">Book an Appointment</h1>
+          <div className="divider"></div>
+          <div className="flex justify-between mx-7">
+            <p className="font-bold text-2xl">Availability</p>
+            <button className="btn rounded-full text-[#09982F] bg-green-100">
+              Doctor Available Today
+            </button>
           </div>
+          <div className="divider"></div>
+          <div className="flex gap-2 items-center text-[#FFA000] bg-orange-100 w-[1050px] h-7 mb-2 ml-12 rounded-full pl-7 ">
+            <BsExclamationOctagon />
+            <p>
+              Due to high patient volume, we are currently accepting
+              appointments for today only. We appreciate your understanding and
+              cooperation.
+            </p>
+          </div>
+
+          <Link to={`/doctorBooking/${id}`}>
+            <button onClick={tostifi} className="btn w-[1100px] h-10 rounded-full bg-[#176AE5] text-white font-bold">
+              Book Appointment Now
+              <ToastContainer />
+            </button>
+           
+          </Link>
         </div>
       </div>
     </div>

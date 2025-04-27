@@ -30,13 +30,13 @@ const Book = ({ singleBook }) => {
                 Reg No: {registration_number}
               </p>
             </div>
-            <Link to="/about">
+            
             <Link to={`/doctorDetails/${id}`}>
               <button className="btn btn-wide text-[#176AE5] font-semibold rounded-full border-blue-500 text-[20px] ml-8 mt-3">
                 View Details
               </button>
               </Link>
-            </Link>
+            
           </div>
         </div>
       </div>

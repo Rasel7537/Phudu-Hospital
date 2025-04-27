@@ -8,7 +8,9 @@
     "Working":"Grand Horizon Advanced Medical & Research Institute",
     "Available":"Available",
     "experience": "15 years experience",
-    "registration_number": "123456"
+    "Availability": "Sunday, Monday, Thursday",
+    "registration_number": "123456",
+    "Fee":"Taka: 350 (incl. Vat) Per consultation"
   },
   {
     "id": 2,
@@ -19,7 +21,9 @@
     "Working":"Everlasting Care International Specialty Hospital",
     "Available":"Available",
     "experience": "10 years experience",
-    "registration_number": "789012"
+    "Availability": "Tuesday, Thursday, Saturday",
+    "registration_number": "789012",
+    "Fee":"Taka: 420 (incl. Vat) Per consultation"
   },
   {
     "id": 3,
@@ -30,7 +34,9 @@
     "Working":"Summit Heights Comprehensive Healthcare Center",
     "Available":"Available",
     "experience": "12 years experience",
-    "registration_number": "345678"
+    "Availability": "Sunday, Tuesday, Thursday",
+    "registration_number": "345678",
+    "Fee":"Taka: 500 (incl. Vat) Per consultation"
   },
   {
     "id": 4,
@@ -41,7 +47,9 @@
     "Working":"Starlight Regional Institute for Advanced Medicine",
     "Available":"Available",
     "experience": "8 years experience",
-    "registration_number": "901234"
+    "Availability": "Monday, Thursday, Saturday",
+    "registration_number": "901234",
+    "Fee":"Taka: 400 (incl. Vat) Per consultation"
   },
   {
     "id": 5,
@@ -52,7 +60,9 @@
     "Working":"Guardian Angel Multispecialty Medical Pavilion",
     "Available":"Available",
     "experience": "18 years experience",
-    "registration_number": "567890"
+    "Availability": "Wednesday, Friday, Sunday",
+    "registration_number": "567890",
+    "Fee":"Taka: 1000 (incl. Vat) Per consultation"
   },
   {
     "id": 6,
@@ -63,7 +73,9 @@
     "Working":"VitalHope Integrated Wellness & Rehabilitation Center",
     "Available":"Available",
     "experience": "9 years experience",
-    "registration_number": "112233"
+    "Availability": "Monday, Wednesday, Saturday",
+    "registration_number": "112233",
+    "Fee":"Taka: 1200 (incl. Vat) Per consultation"
   },
   {
     "id": 7,
@@ -74,7 +86,9 @@
     "Working":"Serenity Springs Advanced Surgical & Treatment Facility",
     "Available":"Available",
     "experience": "14 years experience",
-    "registration_number": "445566"
+    "Availability": "Sunday, Monday, Thursday",
+    "registration_number": "445566",
+    "Fee":"Taka: 800 (incl. Vat) Per consultation"
   },
   {
     "id": 8,
@@ -85,7 +99,9 @@
     "Available":"Available",
     "Working":"NovaMed Excellence Center for Specialized Care",
     "experience": "20 years experience",
-    "registration_number": "778899"
+    "Availability": "Monday, Wednesday, Saturday",
+    "registration_number": "778899",
+    "Fee":"Taka: 150 (incl. Vat) Per consultation"
   },
   {
     "id": 9,
@@ -96,7 +112,9 @@
     "Available":"Available",
     "Working":"Crescent Valley Institute for Cardiovascular & Neurological Health",
     "experience": "13 years experience",
-    "registration_number": "223344"
+    "Availability": "Wednesday, Thursday, Saturday",
+    "registration_number": "223344",
+    "Fee":"Taka: 600 (incl. Vat) Per consultation"
   },
   {
     "id": 10,
@@ -107,8 +125,9 @@
     "Working":"Grand Horizon Advanced Medical & Research Institute",
     "Available":"Available",
     "experience": "11 years experience",
-    "Availability": "Sunday, Monday, Thursday",
-    "registration_number": "556677"
+    "Availability": "Wednesday, Thursday, Friday",
+    "registration_number": "556677",
+    "Fee":"Taka: 350 (incl. Vat) Per consultation"
   },
   {
     "id": 11,
@@ -119,7 +138,9 @@
     "Working":"ZenithCare International Medical & Research Academy",
     "Available":"Available",
     "experience": "16 years experience",
-    "registration_number": "889900"
+    "Availability": "Sunday, Monday, Thursday",
+    "registration_number": "889900",
+    "Fee":"Taka: 600 (incl. Vat) Per consultation"
   },
   {
     "id": 12,
@@ -130,6 +151,8 @@
     "Working":"Harmony Haven Advanced Multispecialty Health Center",
     "Available":"Available",
     "experience": "17 years experience",
-    "registration_number": "101112"
+    "Availability": "Wednesday, Thursday, Friday",
+    "registration_number": "101112",
+    "Fee":"Taka: 700 (incl. Vat) Per consultation"
   }
 ]
