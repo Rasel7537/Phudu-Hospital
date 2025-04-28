@@ -1,12 +1,9 @@
 import React from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import { BsExclamationOctagon } from "react-icons/bs";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from "react-toastify";
 
 const DoctorDetails = () => {
-  const  tostifi = ()=>{
-    toast("appointment scheduled for");
-  }
   const { id } = useParams();
   const doctorId = parseInt(id);
   const data = useLoaderData();
@@ -22,7 +19,9 @@ const DoctorDetails = () => {
     Fee,
   } = singleDoctor;
 
- 
+  const tostify = () => {
+    toast(`appointment scheduled for ${name} successfully`);
+  };
 
   return (
     <div>
@@ -64,7 +63,7 @@ const DoctorDetails = () => {
       </div>
 
       <div>
-        <div className="w-[1175px] h-[256px] shadow-2xl rounded-2xl text-center my-7 pt-5">
+        <div className="w-[1175px] h-[400px] shadow-2xl rounded-2xl text-center my-7 pt-5">
           <h1 className="text-3xl font-bold pt-9">Book an Appointment</h1>
           <div className="divider"></div>
           <div className="flex justify-between mx-7">
@@ -83,13 +82,17 @@ const DoctorDetails = () => {
             </p>
           </div>
 
-          <Link to={`/doctorBooking/${id}`}>
-            <button onClick={tostifi} className="btn w-[1100px] h-10 rounded-full bg-[#176AE5] text-white font-bold">
-              Book Appointment Now
-              <ToastContainer />
-            </button>
-           
-          </Link>
+          <div className="mt-9">
+            <Link to={`/doctorBooking/${id}`}>
+              <button
+                onClick={tostify}
+                className="btn w-[1100px] h-10 rounded-full bg-[#176AE5] text-white font-bold"
+              >
+                Book Appointment Now
+                
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

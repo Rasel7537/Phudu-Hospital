@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
               fill="none"
@@ -21,7 +21,7 @@ const Navbar = () => {
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
               />{" "}
-            </svg>
+            </svg> */}
           </div>
           <ul
             tabIndex={0}
@@ -33,7 +33,7 @@ const Navbar = () => {
                   isActive ? "text-fuchsia-600" : ""
                 }
               >
-                Home
+                Home.....
               </NavLink>
             </li>
             <li>
@@ -52,25 +52,39 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <Link to={"/"}>
+          <NavLink
+            to={"/"}
+            className={({ isActive }) =>
+              isActive ? "text-blue-500 font-bold" : "text-gray-600"
+            }
+          >
             <li>
               <a>Home</a>
             </li>
-          </Link>
+          </NavLink>
 
-          <Link to={"./myBooking"}>
+          <NavLink to={"./myBooking"}
+          className={({ isActive }) =>
+            isActive ? "text-blue-500 font-bold" : "text-gray-600"
+          }>
             <li>
               <a>My-Bookings</a>
             </li>
-          </Link>
-           <Link to={"./Blogs"}>
-          <li>
-            <a>Blogs</a>
-          </li>
-          </Link>
+          </NavLink>
+          <NavLink to={"./Blogs"} className={({ isActive }) =>
+              isActive ? "text-blue-500 font-bold" : "text-gray-600"
+            } >
+            <li>
+              <a>Blogs</a>
+            </li>
+          </NavLink>
+          <NavLink to={"./contact"} className={({ isActive }) =>
+              isActive ? "text-blue-500 font-bold" : "text-gray-600"
+            } >
           <li>
             <a>Contact Us</a>
           </li>
+          </NavLink>
         </ul>
       </div>
       <div className="navbar-end">

@@ -9,6 +9,8 @@ import Booking from "../pages/Booking/Booking";
 import DoctorBooking from "../pages/DoctorBooking/DoctorBooking";
 import MyBooking from "../pages/myBooking/MyBooking";
 import Blogs from "../pages/Blogs/Blogs";
+import Spinner from "../pages/spinner/Spinner";
+import Contact from "../pages/Contact/Contact";
 // import ReadList from "../pages/ReadList/ReadList";
 
 export const router = createBrowserRouter([
@@ -22,6 +24,7 @@ export const router = createBrowserRouter([
         loader: () => fetch("/doctorData.json"),
         path: "/",
         Component: Home,
+        hydrateFallbackElement: <Spinner></Spinner>
       },
       {
         path:'/about',
@@ -32,6 +35,7 @@ export const router = createBrowserRouter([
       //   loader: () => fetch("doctorData.json"),
       //   Component:ReadList
       // },
+     
       {
         path:"blogs",
         Component: Blogs
@@ -48,12 +52,14 @@ export const router = createBrowserRouter([
       {
        path:'/doctorBooking/:id',
        loader: () => fetch("/doctorData.json"),
-       Component:DoctorBooking
+       Component:DoctorBooking,
+       hydrateFallbackElement: <Spinner></Spinner>
       },
       {
         path:"/doctorDetails/:id",
         loader: () => fetch("/doctorData.json"),
         Component: DoctorDetails,
+        hydrateFallbackElement: <Spinner></Spinner>
       }
     ],
   },
