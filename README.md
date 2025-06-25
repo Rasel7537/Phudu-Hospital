@@ -1,12 +1,20 @@
-# React + Vite
+# 🏥 Phudu Hospital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Phudu Hospital** is a modern, responsive healthcare web application designed to offer hospital information, doctor details, and appointment features in a user-friendly interface. The platform aims to simplify the hospital visiting experience through digital innovation.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- **HTML5**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **React.js**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+- 🏥 Clean and modern hospital landing page
+- 👨‍⚕️ Doctors' profiles and specialization sections
+- 🕑 Appointment booking UI design
+- 📱 Fully responsive on mobile, tablet, and desktop
+- ⚡ Fast performance and user-friendly navigation
+
